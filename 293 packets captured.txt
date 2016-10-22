@@ -1,0 +1,346 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+Clink v0.4.7 [git:dfc95a] Copyright (c) 2012-2016 Martin Ridgers
+http://mridgers.github.io/clink
+
+
+C:\Users\think\OneDrive\batch>Cscript.exe
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Usage: CScript scriptname.extension [option...] [arguments...]
+
+Options:
+ //B         Batch mode: Suppresses script errors and prompts from displaying
+ //D         Enable Active Debugging
+ //E:engine  Use engine for executing script
+ //H:CScript Changes the default script host to CScript.exe
+ //H:WScript Changes the default script host to WScript.exe (default)
+ //I         Interactive mode (default, opposite of //B)
+ //Job:xxxx  Execute a WSF job
+ //Logo      Display logo (default)
+ //Nologo    Prevent logo display: No banner will be shown at execution time
+ //S         Save current command line options for this user
+ //T:nn      Time out in seconds:  Maximum time a script is permitted to run
+ //X         Execute script in debugger
+ //U         Use Unicode for redirected I/O from the console
+
+C:\Users\think\OneDrive\batch>windump
+windump: listening on \Device\NPF_{0AEA9F56-4BFD-4442-96EE-2043EA46A8DB}
+09:14:41.334611 IP thinkpad.53909 > 239.255.255.250.1900: UDP, length 172
+09:14:42.472592 IP6 thinkpad.64818 > ff02::1:3.5355: UDP, length 46
+09:14:42.472723 IP thinkpad.64818 > 224.0.0.252.5355: UDP, length 46
+09:14:44.310629 IP6 thinkpad.61014 > ff02::1:3.5355: UDP, length 90
+09:14:44.310769 IP thinkpad.61014 > 224.0.0.252.5355: UDP, length 90
+09:14:45.152561 IP6 thinkpad.58322 > ff02::1:3.5355: UDP, length 42
+09:14:45.152741 IP thinkpad.58322 > 224.0.0.252.5355: UDP, length 42
+09:16:34.707805 IP6 thinkpad > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+09:16:34.707805 IP thinkpad > igmp.mcast.net: igmp v3 report, 1 group record(s)
+09:16:34.712708 IP6 thinkpad > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+09:16:34.712906 IP thinkpad > igmp.mcast.net: igmp v3 report, 1 group record(s)
+09:16:34.762287 IP thinkpad > igmp.mcast.net: igmp v3 report, 1 group record(s)
+09:16:34.762399 IP6 thinkpad > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+09:16:35.125562 IP6 thinkpad.50343 > ff02::1:3.5355: UDP, length 26
+09:16:35.125868 IP thinkpad.50343 > 224.0.0.252.5355: UDP, length 26
+09:16:37.706617 IP6 thinkpad.52065 > ff02::1:3.5355: UDP, length 90
+09:16:37.706753 IP thinkpad.52065 > 224.0.0.252.5355: UDP, length 90
+09:16:38.333292 IP thinkpad.51471 > 239.255.255.250.1900: UDP, length 172
+09:16:39.334443 IP thinkpad.51471 > 239.255.255.250.1900: UDP, length 172
+09:16:40.335410 IP thinkpad.51471 > 239.255.255.250.1900: UDP, length 172
+09:16:41.335483 IP thinkpad.51471 > 239.255.255.250.1900: UDP, length 172
+09:17:29.575296 0a:00:27:00:00:02 (oui Unknown) > 01:80:c2:00:00:0e (oui Unknown), ethertype Unknown (0x88cc), length 58:
+        0x0000:  0207 040a 0027 0000 0204 0703 0a00 2700  .....'........'.
+        0x0010:  0002 0602 0e11 fe09 0012 0f01 0300 0100  ................
+        0x0020:  00fe 0700 12bb 0100 0101 0000            ............
+09:18:38.334542 IP thinkpad.57826 > 239.255.255.250.1900: UDP, length 172
+09:18:39.336500 IP thinkpad.57826 > 239.255.255.250.1900: UDP, length 172
+09:18:40.338393 IP thinkpad.57826 > 239.255.255.250.1900: UDP, length 172
+09:18:41.339604 IP thinkpad.57826 > 239.255.255.250.1900: UDP, length 172
+09:19:41.629027 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:19:42.379361 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:19:42.840563 IP6 thinkpad.58720 > ff02::1:3.5355: UDP, length 45
+09:19:42.840762 IP thinkpad.58720 > 224.0.0.252.5355: UDP, length 45
+09:19:43.129369 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:20:38.334730 IP thinkpad.55801 > 239.255.255.250.1900: UDP, length 172
+09:20:39.335462 IP thinkpad.55801 > 239.255.255.250.1900: UDP, length 172
+09:20:40.337444 IP thinkpad.55801 > 239.255.255.250.1900: UDP, length 172
+09:20:41.337532 IP thinkpad.55801 > 239.255.255.250.1900: UDP, length 172
+09:22:38.335562 IP thinkpad.54556 > 239.255.255.250.1900: UDP, length 172
+09:22:39.336489 IP thinkpad.54556 > 239.255.255.250.1900: UDP, length 172
+09:22:40.338429 IP thinkpad.54556 > 239.255.255.250.1900: UDP, length 172
+09:22:41.338475 IP thinkpad.54556 > 239.255.255.250.1900: UDP, length 172
+09:24:38.336512 IP thinkpad.52626 > 239.255.255.250.1900: UDP, length 172
+09:24:39.338489 IP thinkpad.52626 > 239.255.255.250.1900: UDP, length 172
+09:24:40.339438 IP thinkpad.52626 > 239.255.255.250.1900: UDP, length 172
+09:24:41.339578 IP thinkpad.52626 > 239.255.255.250.1900: UDP, length 172
+09:26:38.336676 IP thinkpad.51992 > 239.255.255.250.1900: UDP, length 172
+09:26:39.337677 IP thinkpad.51992 > 239.255.255.250.1900: UDP, length 172
+09:26:40.338522 IP thinkpad.51992 > 239.255.255.250.1900: UDP, length 172
+09:26:41.338563 IP thinkpad.51992 > 239.255.255.250.1900: UDP, length 172
+09:28:36.104052 IP thinkpad.138 > 192.168.56.255.138: UDP, length 201
+09:28:38.337668 IP thinkpad.53321 > 239.255.255.250.1900: UDP, length 172
+09:28:39.338587 IP thinkpad.53321 > 239.255.255.250.1900: UDP, length 172
+09:28:40.340484 IP thinkpad.53321 > 239.255.255.250.1900: UDP, length 172
+09:28:41.342518 IP thinkpad.53321 > 239.255.255.250.1900: UDP, length 172
+09:30:38.338825 IP thinkpad.59869 > 239.255.255.250.1900: UDP, length 172
+09:30:39.340608 IP thinkpad.59869 > 239.255.255.250.1900: UDP, length 172
+09:30:40.341530 IP thinkpad.59869 > 239.255.255.250.1900: UDP, length 172
+09:30:41.342532 IP thinkpad.59869 > 239.255.255.250.1900: UDP, length 172
+09:32:38.339409 IP thinkpad.52016 > 239.255.255.250.1900: UDP, length 172
+09:32:39.341546 IP thinkpad.52016 > 239.255.255.250.1900: UDP, length 172
+09:32:40.343539 IP thinkpad.52016 > 239.255.255.250.1900: UDP, length 172
+09:32:41.343655 IP thinkpad.52016 > 239.255.255.250.1900: UDP, length 172
+09:33:14.420455 0a:00:27:00:00:02 (oui Unknown) > 01:80:c2:00:00:0e (oui Unknown), ethertype Unknown (0x88cc), length 58:
+        0x0000:  0207 040a 0027 0000 0204 0703 0a00 2700  .....'........'.
+        0x0010:  0002 0602 0e11 fe09 0012 0f01 0300 0100  ................
+        0x0020:  00fe 0700 12bb 0100 0101 0000            ............
+09:34:38.340603 IP thinkpad.65309 > 239.255.255.250.1900: UDP, length 172
+09:34:39.341549 IP thinkpad.65309 > 239.255.255.250.1900: UDP, length 172
+09:34:40.342544 IP thinkpad.65309 > 239.255.255.250.1900: UDP, length 172
+09:34:41.342627 IP thinkpad.65309 > 239.255.255.250.1900: UDP, length 172
+09:36:38.340773 IP thinkpad.50194 > 239.255.255.250.1900: UDP, length 172
+09:36:39.341673 IP thinkpad.50194 > 239.255.255.250.1900: UDP, length 172
+09:36:40.343555 IP thinkpad.50194 > 239.255.255.250.1900: UDP, length 172
+09:36:41.343641 IP thinkpad.50194 > 239.255.255.250.1900: UDP, length 172
+09:38:38.342609 IP thinkpad.51556 > 239.255.255.250.1900: UDP, length 172
+09:38:39.344596 IP thinkpad.51556 > 239.255.255.250.1900: UDP, length 172
+09:38:40.346556 IP thinkpad.51556 > 239.255.255.250.1900: UDP, length 172
+09:38:41.346624 IP thinkpad.51556 > 239.255.255.250.1900: UDP, length 172
+09:40:36.577177 IP thinkpad.138 > 192.168.56.255.138: UDP, length 201
+09:40:38.342813 IP thinkpad.60196 > 239.255.255.250.1900: UDP, length 172
+09:40:39.343677 IP thinkpad.60196 > 239.255.255.250.1900: UDP, length 172
+09:40:40.345617 IP thinkpad.60196 > 239.255.255.250.1900: UDP, length 172
+09:40:41.347612 IP thinkpad.60196 > 239.255.255.250.1900: UDP, length 172
+09:41:12.582304 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:41:12.992754 IP6 thinkpad.58046 > ff02::1:3.5355: UDP, length 21
+09:41:12.992881 IP thinkpad.58046 > 224.0.0.252.5355: UDP, length 21
+09:41:13.332536 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:41:14.083669 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:42:38.342938 IP thinkpad.63513 > 239.255.255.250.1900: UDP, length 172
+09:42:39.343259 IP thinkpad.63513 > 239.255.255.250.1900: UDP, length 172
+09:42:40.344599 IP thinkpad.63513 > 239.255.255.250.1900: UDP, length 172
+09:42:41.344684 IP thinkpad.63513 > 239.255.255.250.1900: UDP, length 172
+09:42:56.295822 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:42:56.707785 IP6 thinkpad.63466 > ff02::1:3.5355: UDP, length 22
+09:42:56.707976 IP thinkpad.63466 > 224.0.0.252.5355: UDP, length 22
+09:42:57.046623 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:42:57.797672 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:43:14.951788 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:43:15.364221 IP6 thinkpad.55647 > ff02::1:3.5355: UDP, length 22
+09:43:15.365769 IP thinkpad.55647 > 224.0.0.252.5355: UDP, length 22
+09:43:15.701653 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:43:16.453569 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:44:38.345711 IP thinkpad.49646 > 239.255.255.250.1900: UDP, length 172
+09:44:39.347595 IP thinkpad.49646 > 239.255.255.250.1900: UDP, length 172
+09:44:40.348086 IP thinkpad.49646 > 239.255.255.250.1900: UDP, length 172
+09:44:41.348608 IP thinkpad.49646 > 239.255.255.250.1900: UDP, length 172
+09:46:38.346756 IP thinkpad.54767 > 239.255.255.250.1900: UDP, length 172
+09:46:39.347727 IP thinkpad.54767 > 239.255.255.250.1900: UDP, length 172
+09:46:40.349604 IP thinkpad.54767 > 239.255.255.250.1900: UDP, length 172
+09:46:41.350718 IP thinkpad.54767 > 239.255.255.250.1900: UDP, length 172
+09:48:38.348319 IP thinkpad.61253 > 239.255.255.250.1900: UDP, length 172
+09:48:39.349603 IP thinkpad.61253 > 239.255.255.250.1900: UDP, length 172
+09:48:40.350657 IP thinkpad.61253 > 239.255.255.250.1900: UDP, length 172
+09:48:41.350851 IP thinkpad.61253 > 239.255.255.250.1900: UDP, length 172
+09:48:59.267524 0a:00:27:00:00:02 (oui Unknown) > 01:80:c2:00:00:0e (oui Unknown), ethertype Unknown (0x88cc), length 58:
+        0x0000:  0207 040a 0027 0000 0204 0703 0a00 2700  .....'........'.
+        0x0010:  0002 0602 0e11 fe09 0012 0f01 0300 0100  ................
+        0x0020:  00fe 0700 12bb 0100 0101 0000            ............
+09:50:38.348249 IP thinkpad.63476 > 239.255.255.250.1900: UDP, length 172
+09:50:39.348715 IP thinkpad.63476 > 239.255.255.250.1900: UDP, length 172
+09:50:40.349656 IP thinkpad.63476 > 239.255.255.250.1900: UDP, length 172
+09:50:41.349716 IP thinkpad.63476 > 239.255.255.250.1900: UDP, length 172
+09:52:37.427874 IP thinkpad.138 > 192.168.56.255.138: UDP, length 201
+09:52:38.348913 IP thinkpad.61413 > 239.255.255.250.1900: UDP, length 172
+09:52:39.350785 IP thinkpad.61413 > 239.255.255.250.1900: UDP, length 172
+09:52:40.351680 IP thinkpad.61413 > 239.255.255.250.1900: UDP, length 172
+09:52:41.351771 IP thinkpad.61413 > 239.255.255.250.1900: UDP, length 172
+09:54:38.350251 IP thinkpad.58177 > 239.255.255.250.1900: UDP, length 172
+09:54:39.350738 IP thinkpad.58177 > 239.255.255.250.1900: UDP, length 172
+09:54:40.351670 IP thinkpad.58177 > 239.255.255.250.1900: UDP, length 172
+09:54:41.352806 IP thinkpad.58177 > 239.255.255.250.1900: UDP, length 172
+09:56:38.349836 IP thinkpad.55965 > 239.255.255.250.1900: UDP, length 172
+09:56:39.350821 IP thinkpad.55965 > 239.255.255.250.1900: UDP, length 172
+09:56:40.351683 IP thinkpad.55965 > 239.255.255.250.1900: UDP, length 172
+09:56:41.351792 IP thinkpad.55965 > 239.255.255.250.1900: UDP, length 172
+09:57:55.848780 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:57:56.599637 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:57:57.349702 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+09:58:38.350831 IP thinkpad.49893 > 239.255.255.250.1900: UDP, length 172
+09:58:39.351867 IP thinkpad.49893 > 239.255.255.250.1900: UDP, length 172
+09:58:40.353724 IP thinkpad.49893 > 239.255.255.250.1900: UDP, length 172
+09:58:41.353822 IP thinkpad.49893 > 239.255.255.250.1900: UDP, length 172
+10:00:38.350967 IP thinkpad.56059 > 239.255.255.250.1900: UDP, length 172
+10:00:39.352788 IP thinkpad.56059 > 239.255.255.250.1900: UDP, length 172
+10:00:40.353740 IP thinkpad.56059 > 239.255.255.250.1900: UDP, length 172
+10:00:41.353784 IP thinkpad.56059 > 239.255.255.250.1900: UDP, length 172
+10:02:38.250096 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:02:38.351998 IP thinkpad.63083 > 239.255.255.250.1900: UDP, length 172
+10:02:38.660898 IP6 thinkpad.63082 > ff02::1:3.5355: UDP, length 22
+10:02:38.661077 IP thinkpad.63082 > 224.0.0.252.5355: UDP, length 22
+10:02:38.999923 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:02:39.352774 IP thinkpad.63083 > 239.255.255.250.1900: UDP, length 172
+10:02:39.751781 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:02:40.353718 IP thinkpad.63083 > 239.255.255.250.1900: UDP, length 172
+10:02:41.354727 IP thinkpad.63083 > 239.255.255.250.1900: UDP, length 172
+10:04:36.099365 IP thinkpad.138 > 192.168.56.255.138: UDP, length 201
+10:04:38.353977 IP thinkpad.65251 > 239.255.255.250.1900: UDP, length 172
+10:04:39.355806 IP thinkpad.65251 > 239.255.255.250.1900: UDP, length 172
+10:04:40.357789 IP thinkpad.65251 > 239.255.255.250.1900: UDP, length 172
+10:04:41.358559 IP thinkpad.65251 > 239.255.255.250.1900: UDP, length 172
+10:04:44.112653 0a:00:27:00:00:02 (oui Unknown) > 01:80:c2:00:00:0e (oui Unknown), ethertype Unknown (0x88cc), length 58:
+        0x0000:  0207 040a 0027 0000 0204 0703 0a00 2700  .....'........'.
+        0x0010:  0002 0602 0e11 fe09 0012 0f01 0300 0100  ................
+        0x0020:  00fe 0700 12bb 0100 0101 0000            ............
+10:06:38.354867 IP thinkpad.50170 > 239.255.255.250.1900: UDP, length 172
+10:06:39.355790 IP thinkpad.50170 > 239.255.255.250.1900: UDP, length 172
+10:06:40.356805 IP thinkpad.50170 > 239.255.255.250.1900: UDP, length 172
+10:06:41.356826 IP thinkpad.50170 > 239.255.255.250.1900: UDP, length 172
+10:08:38.354986 IP thinkpad.54093 > 239.255.255.250.1900: UDP, length 172
+10:08:39.355894 IP thinkpad.54093 > 239.255.255.250.1900: UDP, length 172
+10:08:40.356857 IP thinkpad.54093 > 239.255.255.250.1900: UDP, length 172
+10:08:41.357881 IP thinkpad.54093 > 239.255.255.250.1900: UDP, length 172
+10:09:24.040901 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:09:24.452901 IP6 thinkpad.55298 > ff02::1:3.5355: UDP, length 26
+10:09:24.452903 IP6 thinkpad.53024 > ff02::1:3.5355: UDP, length 26
+10:09:24.453031 IP thinkpad.55298 > 224.0.0.252.5355: UDP, length 26
+10:09:24.453035 IP thinkpad.53024 > 224.0.0.252.5355: UDP, length 26
+10:09:24.791719 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:09:25.542803 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:09:26.294537 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:09:26.705964 IP6 thinkpad.61962 > ff02::1:3.5355: UDP, length 26
+10:09:26.705972 IP6 thinkpad.56612 > ff02::1:3.5355: UDP, length 26
+10:09:26.706119 IP thinkpad.61962 > 224.0.0.252.5355: UDP, length 26
+10:09:26.706133 IP thinkpad.56612 > 224.0.0.252.5355: UDP, length 26
+10:09:27.044819 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:09:27.795842 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:10:38.355721 IP thinkpad.49580 > 239.255.255.250.1900: UDP, length 172
+10:10:39.356784 IP thinkpad.49580 > 239.255.255.250.1900: UDP, length 172
+10:10:40.358790 IP thinkpad.49580 > 239.255.255.250.1900: UDP, length 172
+10:10:41.359458 IP thinkpad.49580 > 239.255.255.250.1900: UDP, length 172
+10:12:19.262314 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:12:20.011831 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:12:20.762755 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:12:38.355999 IP thinkpad.50221 > 239.255.255.250.1900: UDP, length 172
+10:12:39.357926 IP thinkpad.50221 > 239.255.255.250.1900: UDP, length 172
+10:12:40.359811 IP thinkpad.50221 > 239.255.255.250.1900: UDP, length 172
+10:12:41.359818 IP thinkpad.50221 > 239.255.255.250.1900: UDP, length 172
+10:14:38.357955 IP thinkpad.58463 > 239.255.255.250.1900: UDP, length 172
+10:14:39.358930 IP thinkpad.58463 > 239.255.255.250.1900: UDP, length 172
+10:14:40.359912 IP thinkpad.58463 > 239.255.255.250.1900: UDP, length 172
+10:14:41.360929 IP thinkpad.58463 > 239.255.255.250.1900: UDP, length 172
+10:16:38.360428 IP thinkpad.64283 > 239.255.255.250.1900: UDP, length 172
+10:16:38.778728 IP thinkpad.138 > 192.168.56.255.138: UDP, length 201
+10:16:39.360896 IP thinkpad.64283 > 239.255.255.250.1900: UDP, length 172
+10:16:40.362854 IP thinkpad.64283 > 239.255.255.250.1900: UDP, length 172
+10:16:41.363021 IP thinkpad.64283 > 239.255.255.250.1900: UDP, length 172
+10:18:38.360939 IP thinkpad.50122 > 239.255.255.250.1900: UDP, length 172
+10:18:39.362965 IP thinkpad.50122 > 239.255.255.250.1900: UDP, length 172
+10:18:40.363931 IP thinkpad.50122 > 239.255.255.250.1900: UDP, length 172
+10:18:41.363975 IP thinkpad.50122 > 239.255.255.250.1900: UDP, length 172
+10:20:28.983828 0a:00:27:00:00:02 (oui Unknown) > 01:80:c2:00:00:0e (oui Unknown), ethertype Unknown (0x88cc), length 58:
+        0x0000:  0207 040a 0027 0000 0204 0703 0a00 2700  .....'........'.
+        0x0010:  0002 0602 0e11 fe09 0012 0f01 0300 0100  ................
+        0x0020:  00fe 0700 12bb 0100 0101 0000            ............
+10:20:38.362096 IP thinkpad.55361 > 239.255.255.250.1900: UDP, length 172
+10:20:39.362989 IP thinkpad.55361 > 239.255.255.250.1900: UDP, length 172
+10:20:40.363889 IP thinkpad.55361 > 239.255.255.250.1900: UDP, length 172
+10:20:41.363982 IP thinkpad.55361 > 239.255.255.250.1900: UDP, length 172
+10:22:38.362326 IP thinkpad.57213 > 239.255.255.250.1900: UDP, length 172
+10:22:39.364015 IP thinkpad.57213 > 239.255.255.250.1900: UDP, length 172
+10:22:40.365900 IP thinkpad.57213 > 239.255.255.250.1900: UDP, length 172
+10:22:41.366911 IP thinkpad.57213 > 239.255.255.250.1900: UDP, length 172
+10:24:38.362007 IP thinkpad.55735 > 239.255.255.250.1900: UDP, length 172
+10:24:39.363981 IP thinkpad.55735 > 239.255.255.250.1900: UDP, length 172
+10:24:40.364920 IP thinkpad.55735 > 239.255.255.250.1900: UDP, length 172
+10:24:41.364959 IP thinkpad.55735 > 239.255.255.250.1900: UDP, length 172
+10:26:38.362185 IP thinkpad.59478 > 239.255.255.250.1900: UDP, length 172
+10:26:39.362950 IP thinkpad.59478 > 239.255.255.250.1900: UDP, length 172
+10:26:40.363886 IP thinkpad.59478 > 239.255.255.250.1900: UDP, length 172
+10:26:41.364952 IP thinkpad.59478 > 239.255.255.250.1900: UDP, length 172
+10:28:38.362105 IP thinkpad.58076 > 239.255.255.250.1900: UDP, length 172
+10:28:39.018821 IP thinkpad.138 > 192.168.56.255.138: UDP, length 201
+10:28:39.363043 IP thinkpad.58076 > 239.255.255.250.1900: UDP, length 172
+10:28:40.363953 IP thinkpad.58076 > 239.255.255.250.1900: UDP, length 172
+10:28:40.671885 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:28:41.363993 IP thinkpad.58076 > 239.255.255.250.1900: UDP, length 172
+10:28:41.421862 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:28:42.171891 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:29:31.210711 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:29:31.959915 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:29:32.709937 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:30:38.364510 IP thinkpad.56211 > 239.255.255.250.1900: UDP, length 172
+10:30:39.364960 IP thinkpad.56211 > 239.255.255.250.1900: UDP, length 172
+10:30:40.366002 IP thinkpad.56211 > 239.255.255.250.1900: UDP, length 172
+10:30:41.367075 IP thinkpad.56211 > 239.255.255.250.1900: UDP, length 172
+10:32:38.364146 IP thinkpad.56231 > 239.255.255.250.1900: UDP, length 172
+10:32:39.365073 IP thinkpad.56231 > 239.255.255.250.1900: UDP, length 172
+10:32:40.367012 IP thinkpad.56231 > 239.255.255.250.1900: UDP, length 172
+10:32:41.368063 IP thinkpad.56231 > 239.255.255.250.1900: UDP, length 172
+10:33:41.051657 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:33:41.801943 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:33:42.551996 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:34:38.365109 IP thinkpad.58760 > 239.255.255.250.1900: UDP, length 172
+10:34:39.365965 IP thinkpad.58760 > 239.255.255.250.1900: UDP, length 172
+10:34:40.366038 IP thinkpad.58760 > 239.255.255.250.1900: UDP, length 172
+10:34:41.366094 IP thinkpad.58760 > 239.255.255.250.1900: UDP, length 172
+10:35:25.814079 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:35:26.565051 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:35:27.316017 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:36:13.829856 0a:00:27:00:00:02 (oui Unknown) > 01:80:c2:00:00:0e (oui Unknown), ethertype Unknown (0x88cc), length 58:
+        0x0000:  0207 040a 0027 0000 0204 0703 0a00 2700  .....'........'.
+        0x0010:  0002 0602 0e11 fe09 0012 0f01 0300 0100  ................
+        0x0020:  00fe 0700 12bb 0100 0101 0000            ............
+10:36:38.365888 IP thinkpad.62122 > 239.255.255.250.1900: UDP, length 172
+10:36:39.367018 IP thinkpad.62122 > 239.255.255.250.1900: UDP, length 172
+10:36:40.367998 IP thinkpad.62122 > 239.255.255.250.1900: UDP, length 172
+10:36:41.368971 IP thinkpad.62122 > 239.255.255.250.1900: UDP, length 172
+10:38:38.366784 IP thinkpad.53448 > 239.255.255.250.1900: UDP, length 172
+10:38:39.367441 IP thinkpad.53448 > 239.255.255.250.1900: UDP, length 172
+10:38:40.369027 IP thinkpad.53448 > 239.255.255.250.1900: UDP, length 172
+10:38:41.369051 IP thinkpad.53448 > 239.255.255.250.1900: UDP, length 172
+10:40:06.219452 IP thinkpad.58770 > 239.255.255.250.1900: UDP, length 172
+10:40:07.220029 IP thinkpad.58770 > 239.255.255.250.1900: UDP, length 172
+10:40:08.220043 IP thinkpad.58770 > 239.255.255.250.1900: UDP, length 172
+10:40:09.221008 IP thinkpad.58770 > 239.255.255.250.1900: UDP, length 172
+10:40:38.367296 IP thinkpad.58776 > 239.255.255.250.1900: UDP, length 172
+10:40:38.734382 IP thinkpad.138 > 192.168.56.255.138: UDP, length 201
+10:40:39.369026 IP thinkpad.58776 > 239.255.255.250.1900: UDP, length 172
+10:40:40.369062 IP thinkpad.58776 > 239.255.255.250.1900: UDP, length 172
+10:40:41.369154 IP thinkpad.58776 > 239.255.255.250.1900: UDP, length 172
+10:40:51.162243 IP thinkpad.49452 > 239.255.255.250.1900: UDP, length 172
+10:40:52.162687 IP thinkpad.49452 > 239.255.255.250.1900: UDP, length 172
+10:40:53.163045 IP thinkpad.49452 > 239.255.255.250.1900: UDP, length 172
+10:40:54.165035 IP thinkpad.49452 > 239.255.255.250.1900: UDP, length 172
+10:42:38.369018 IP thinkpad.54721 > 239.255.255.250.1900: UDP, length 172
+10:42:39.371138 IP thinkpad.54721 > 239.255.255.250.1900: UDP, length 172
+10:42:40.372092 IP thinkpad.54721 > 239.255.255.250.1900: UDP, length 172
+10:42:41.373071 IP thinkpad.54721 > 239.255.255.250.1900: UDP, length 172
+10:44:26.927075 IP thinkpad.56790 > 239.255.255.250.1900: UDP, length 172
+10:44:27.928175 IP thinkpad.56790 > 239.255.255.250.1900: UDP, length 172
+10:44:28.930149 IP thinkpad.56790 > 239.255.255.250.1900: UDP, length 172
+10:44:29.931105 IP thinkpad.56790 > 239.255.255.250.1900: UDP, length 172
+10:44:38.370373 IP thinkpad.56796 > 239.255.255.250.1900: UDP, length 172
+10:44:39.370897 IP thinkpad.56796 > 239.255.255.250.1900: UDP, length 172
+10:44:40.371031 IP thinkpad.56796 > 239.255.255.250.1900: UDP, length 172
+10:44:41.371162 IP thinkpad.56796 > 239.255.255.250.1900: UDP, length 172
+10:46:38.371409 IP thinkpad.62923 > 239.255.255.250.1900: UDP, length 172
+10:46:39.372254 IP thinkpad.62923 > 239.255.255.250.1900: UDP, length 172
+10:46:40.374088 IP thinkpad.62923 > 239.255.255.250.1900: UDP, length 172
+10:46:41.375134 IP thinkpad.62923 > 239.255.255.250.1900: UDP, length 172
+10:46:55.194835 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:46:55.605411 IP6 thinkpad.64146 > ff02::1:3.5355: UDP, length 23
+10:46:55.605615 IP thinkpad.64146 > 224.0.0.252.5355: UDP, length 23
+10:46:55.741424 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:46:55.944137 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:46:56.154317 IP6 thinkpad.56145 > ff02::1:3.5355: UDP, length 20
+10:46:56.154782 IP thinkpad.56145 > 224.0.0.252.5355: UDP, length 20
+10:46:56.493078 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:46:56.695037 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+10:46:57.243040 IP thinkpad.137 > 192.168.56.255.137: UDP, length 50
+
+293 packets captured
+293 packets received by filter
+0 packets dropped by kernel
+
+C
